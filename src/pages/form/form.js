@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
-import dbg from "../../images/illustration-sign-up-desktop.svg";
+import dbg from "../../images/bg-destop.svg";
 export const Formpage = ({ valid, setvalid, email, setEmail }) => {
   const [message, setMessage] = useState("");
   const [greenborder, setGreenborder] = useState(false);
