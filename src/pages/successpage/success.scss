@@ -1,0 +1,25 @@
+$DarkSlateGrey: hsl(234, 29%, 20%);
+
+
+
+.success-heading h1{
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700 !important;
+}
+.success-body p{
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+.success-btn {
+    background-color: $DarkSlateGrey !important;
+    outline: none;
+    border: none;
+
+
+}
+
+ .success-btn:hover {
+     background: linear-gradient(75deg, rgba(250, 3, 103, 1) 42%, rgba(230, 75, 32, 1) 69%) !important;
+ }
